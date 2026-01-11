@@ -1,0 +1,93 @@
+[
+  {
+    "id": "rioja-crianza-01",
+    "name": "Rioja Crianza (Tempranillo) - Perfil clásico",
+    "color": "tinto",
+    "sweetness": "seco",
+    "body": "medio",
+    "occasion": ["cena", "comida", "informal"],
+    "region": "Rioja",
+    "grapes": ["Tempranillo"],
+    "price": 12.5,
+    "notes": ["fruta roja", "vainilla", "especias suaves"],
+    "pairingTags": ["carnes", "quesos", "embutidos"]
+  },
+  {
+    "id": "ribera-roble-01",
+    "name": "Ribera del Duero Roble (Tempranillo) - Más estructura",
+    "color": "tinto",
+    "sweetness": "seco",
+    "body": "con_cuerpo",
+    "occasion": ["cena", "comida", "celebracion"],
+    "region": "Ribera del Duero",
+    "grapes": ["Tempranillo"],
+    "price": 18.0,
+    "notes": ["fruta negra", "tostados", "tanino medio"],
+    "pairingTags": ["carnes", "asados", "guisos"]
+  },
+  {
+    "id": "garnacha-frutal-01",
+    "name": "Garnacha Joven - Frutal y amable",
+    "color": "tinto",
+    "sweetness": "seco",
+    "body": "ligero",
+    "occasion": ["informal", "comida", "aperitivo"],
+    "region": "Navarra / Aragón / Madrid",
+    "grapes": ["Garnacha"],
+    "price": 9.5,
+    "notes": ["fruta roja", "toque floral", "fresco"],
+    "pairingTags": ["tapas", "pasta", "pollo"]
+  },
+  {
+    "id": "verdejo-01",
+    "name": "Verdejo (Rueda) - Fresco y aromático",
+    "color": "blanco",
+    "sweetness": "seco",
+    "body": "ligero",
+    "occasion": ["aperitivo", "informal", "comida"],
+    "region": "Rueda",
+    "grapes": ["Verdejo"],
+    "price": 8.9,
+    "notes": ["cítrico", "hierbas", "fresco"],
+    "pairingTags": ["pescado", "ensaladas", "tapas"]
+  },
+  {
+    "id": "albarino-01",
+    "name": "Albariño (Rías Baixas) - Acidez limpia",
+    "color": "blanco",
+    "sweetness": "seco",
+    "body": "medio",
+    "occasion": ["comida", "cena", "celebracion"],
+    "region": "Rías Baixas",
+    "grapes": ["Albariño"],
+    "price": 16.0,
+    "notes": ["fruta blanca", "salino", "acidez viva"],
+    "pairingTags": ["marisco", "pescado", "arroz"]
+  },
+  {
+    "id": "cava-brut-01",
+    "name": "Cava Brut - Burbuja fina y versátil",
+    "color": "espumoso",
+    "sweetness": "seco",
+    "body": "ligero",
+    "occasion": ["celebracion", "aperitivo", "comida"],
+    "region": "Cava",
+    "grapes": ["Macabeo", "Xarel·lo", "Parellada"],
+    "price": 11.5,
+    "notes": ["manzana", "pan tostado", "fresco"],
+    "pairingTags": ["fritos", "marisco", "tapas"]
+  },
+  {
+    "id": "rose-semi-01",
+    "name": "Rosado Semiseco - Fácil y frutal",
+    "color": "rosado",
+    "sweetness": "semiseco",
+    "body": "ligero",
+    "occasion": ["informal", "aperitivo", "comida"],
+    "region": "España",
+    "grapes": ["Garnacha", "Tempranillo"],
+    "price": 7.9,
+    "notes": ["fruta roja", "suave", "refrescante"],
+    "pairingTags": ["ensaladas", "pasta", "tapas"]
+  }
+]

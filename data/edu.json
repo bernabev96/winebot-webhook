@@ -1,0 +1,17 @@
+{
+  "crianza_vs_reserva": {
+    "short": "Crianza suele tener menos envejecimiento total que Reserva. Reserva suele ofrecer más complejidad (más tiempo de crianza).",
+    "long": "En general, Reserva pasa más tiempo entre barrica y botella que Crianza. Eso suele aportar más complejidad (especias, madera integrada) y una evolución mayor, aunque depende mucho de la bodega y del estilo.",
+    "tips": ["Si buscas frescura: joven o crianza ligero.", "Si buscas complejidad: reserva (o crianza con más estructura)."]
+  },
+  "temperatura_servicio": {
+    "short": "Orientativo: tinto 14-16°C, blanco 8-10°C, espumoso 6-8°C.",
+    "long": "Servir demasiado caliente hace que el alcohol destaque; demasiado frío apaga aromas. Ajusta según estilo: tintos con cuerpo un poco más frescos de lo habitual suelen mejorar.",
+    "tips": ["Enfría 10-15 min en nevera si está caliente.", "Copa adecuada ayuda tanto como la temperatura."]
+  },
+  "decantar": {
+    "short": "Decantar sirve para separar sedimentos (vinos con edad) y/o oxigenar (jóvenes potentes).",
+    "long": "Vinos con edad pueden tener posos; decantar separa sedimento. En jóvenes con mucha estructura, airear 15-30 min puede suavizar.",
+    "tips": ["Si es muy viejo: decanta con cuidado y poco tiempo.", "Si es joven potente: prueba 10 min y decide."]
+  }
+}

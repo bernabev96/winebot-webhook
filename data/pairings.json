@@ -1,0 +1,35 @@
+{
+  "rioja_crianza": {
+    "classic": ["carnes a la plancha", "quesos curados", "embutidos"],
+    "creative": ["setas salteadas", "risotto de setas"],
+    "recipes": [
+      {
+        "title": "Tabla rápida de queso y embutido",
+        "steps": ["Queso semicurado + curado", "Jamón/cecina", "Uvas o membrillo"],
+        "why": "La grasa y la sal equilibran tanino y acidez."
+      }
+    ]
+  },
+  "blanco_fresco": {
+    "classic": ["pescado blanco", "ensaladas", "marisco"],
+    "creative": ["sushi", "tacos de pescado (poco picantes)"],
+    "recipes": [
+      {
+        "title": "Tosta de salmón y limón",
+        "steps": ["Pan tostado + queso crema", "Salmón ahumado", "Ralladura de limón + eneldo"],
+        "why": "La acidez del vino limpia y refresca."
+      }
+    ]
+  },
+  "cava_brut": {
+    "classic": ["fritura ligera", "marisco", "tapas"],
+    "creative": ["palomitas saladas", "patatas chips artesanas"],
+    "recipes": [
+      {
+        "title": "Fritura ligera con limón",
+        "steps": ["Calamar/verduras", "Limón al final", "Sal fina"],
+        "why": "La burbuja corta la grasa y deja la boca limpia."
+      }
+    ]
+  }
+}
