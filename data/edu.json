@@ -2,16 +2,65 @@
   "crianza_vs_reserva": {
     "short": "Crianza suele tener menos envejecimiento total que Reserva. Reserva suele ofrecer más complejidad (más tiempo de crianza).",
     "long": "En general, Reserva pasa más tiempo entre barrica y botella que Crianza. Eso suele aportar más complejidad (especias, madera integrada) y una evolución mayor, aunque depende mucho de la bodega y del estilo.",
-    "tips": ["Si buscas frescura: joven o crianza ligero.", "Si buscas complejidad: reserva (o crianza con más estructura)."]
+    "tips": [
+      "Si buscas frescura: joven o crianza ligero.",
+      "Si buscas complejidad: reserva (o crianza con más estructura)."
+    ]
   },
   "temperatura_servicio": {
     "short": "Orientativo: tinto 14-16°C, blanco 8-10°C, espumoso 6-8°C.",
     "long": "Servir demasiado caliente hace que el alcohol destaque; demasiado frío apaga aromas. Ajusta según estilo: tintos con cuerpo un poco más frescos de lo habitual suelen mejorar.",
-    "tips": ["Enfría 10-15 min en nevera si está caliente.", "Copa adecuada ayuda tanto como la temperatura."]
+    "tips": [
+      "Enfría 10-15 min en nevera si está caliente.",
+      "Copa adecuada ayuda tanto como la temperatura."
+    ]
   },
   "decantar": {
     "short": "Decantar sirve para separar sedimentos (vinos con edad) y/o oxigenar (jóvenes potentes).",
     "long": "Vinos con edad pueden tener posos; decantar separa sedimento. En jóvenes con mucha estructura, airear 15-30 min puede suavizar.",
-    "tips": ["Si es muy viejo: decanta con cuidado y poco tiempo.", "Si es joven potente: prueba 10 min y decide."]
+    "tips": [
+      "Si es muy viejo: decanta con cuidado y poco tiempo.",
+      "Si es joven potente: prueba 10 min y decide."
+    ]
+  },
+  "taninos": {
+    "short": "Los taninos son compuestos fenólicos que aportan astringencia (sensación de sequedad) y estructura, sobre todo en vinos tintos.",
+    "long": "En el vino, los taninos proceden principalmente de la piel y las pepitas de la uva, y también pueden aumentar por el contacto con madera. Se perciben como astringencia (sequedad en encías) y ayudan a dar cuerpo, estructura y capacidad de envejecimiento. En boca suelen suavizarse con el tiempo y con comidas grasas/proteicas.",
+    "tips": [
+      "Si notas el tinto “áspero”, prueba con comida grasa (queso curado, carnes) o sirve un poco más fresco.",
+      "Tintos jóvenes y con mucha extracción suelen marcar más tanino que tintos ya afinados."
+    ]
+  },
+  "sulfitos": {
+    "short": "Los sulfitos (SO₂) están presentes de forma natural y, a veces, se añaden para proteger el vino (antioxidante y antimicrobiano).",
+    "long": "Durante la fermentación se generan sulfitos de forma natural, y en muchos vinos se añade una parte extra para conservarlos mejor: ayudan a prevenir oxidaciones y a controlar microorganismos no deseados. Por eso suelen aparecer en etiqueta como “contiene sulfitos” cuando superan ciertos umbrales.",
+    "tips": [
+      "Que un vino “contenga sulfitos” es normal: la cuestión suele ser la cantidad total.",
+      "Los blancos suelen requerir más protección frente a la oxidación que muchos tintos."
+    ]
+  },
+  "conservacion_abierto": {
+    "short": "Una botella abierta aguanta mejor si minimizas oxígeno: tapón, frío y consumo en 1-3 días (según estilo).",
+    "long": "Una vez abierta, el vino empieza a oxidarse. Para alargarlo: vuelve a tapar (mejor con tapón al vacío si tienes), guarda en frío (también el tinto, y lo atemperas al servir) y evita dejar mucha cámara de aire. Espumosos se benefician de tapón específico. Los vinos más aromáticos y ligeros suelen perder frescura antes que tintos con algo de estructura.",
+    "tips": [
+      "Enfría la botella abierta: reduce la velocidad de oxidación.",
+      "Si queda poco vino en la botella, pásalo a un recipiente más pequeño para reducir oxígeno."
+    ]
+  },
+  "copas": {
+    "short": "La copa influye: tintos suelen ir en copa amplia; blancos en copa algo más estrecha; espumosos en copa alta para preservar burbuja.",
+    "long": "Una copa más amplia favorece oxigenación y expresión aromática (útil en tintos). En blancos, una copa algo más estrecha ayuda a mantener frescura aromática y temperatura. En espumosos, una copa tipo flauta o tulipa ayuda a preservar la burbuja y dirigir aromas; la tulipa suele equilibrar mejor aroma y burbuja que una flauta muy estrecha.",
+    "tips": [
+      "Si solo tienes una copa “universal”, elige una de tamaño medio con ligero cierre arriba.",
+      "Llena menos de la mitad: deja espacio para girar y oler."
+    ]
+  },
+  "brut_espumoso": {
+    "short": "“Brut” indica un espumoso seco (con poco azúcar). Suele ser versátil para aperitivo y comida.",
+    "long": "En espumosos, el término “Brut” se refiere a un nivel de azúcar residual bajo, por lo que el vino se percibe seco. Esto lo hace muy versátil: funciona bien como aperitivo y también con comida, especialmente fritos y platos con cierta grasa porque la acidez y la burbuja limpian el paladar.",
+    "tips": [
+      "Si quieres más “suave”, busca “Extra Dry” (ojo: suele ser un poco más dulce que Brut).",
+      "Sírvelo frío para que la burbuja se perciba más fina."
+    ]
   }
 }
