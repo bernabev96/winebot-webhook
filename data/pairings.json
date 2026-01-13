@@ -1,34 +1,182 @@
 {
   "rioja_crianza": {
-    "classic": ["carnes a la plancha", "quesos curados", "embutidos"],
-    "creative": ["setas salteadas", "risotto de setas"],
+    "classic": [
+      "ternera a la plancha (entrecot, chuletón)",
+      "cordero asado o a la brasa",
+      "aves asadas (pollo al horno, pavo)",
+      "embutidos ibéricos (jamón, chorizo, salchichón)",
+      "quesos curados y semicurados",
+      "tapas tradicionales (croquetas, tortilla, pinchos)",
+      "guisos de carne (suaves, no muy especiados)",
+      "setas a la plancha o salteadas"
+    ],
+    "creative": [
+      "curry suave (poco picante)",
+      "hamburguesa gourmet con queso curado",
+      "tacos de ternera (sin salsas muy picantes)",
+      "berenjena asada con especias suaves"
+    ],
     "recipes": [
       {
         "title": "Tabla rápida de queso y embutido",
-        "steps": ["Queso semicurado + curado", "Jamón/cecina", "Uvas o membrillo"],
-        "why": "La grasa y la sal equilibran tanino y acidez."
+        "steps": [
+          "Queso semicurado + curado",
+          "Jamón/cecina (o lomo)",
+          "Uvas o membrillo"
+        ],
+        "why": "La grasa y la sal equilibran la estructura del tinto y hacen que se perciba más redondo."
+      },
+      {
+        "title": "Tosta de jamón ibérico y tomate",
+        "steps": [
+          "Pan tostado (mejor rústico)",
+          "Tomate rallado + AOVE",
+          "Jamón ibérico por encima"
+        ],
+        "why": "Tempranillo/Rioja suele encajar muy bien con tapas como jamón ibérico por equilibrio de intensidad y punto salino."
+      },
+      {
+        "title": "Pollo asado con hierbas (fácil)",
+        "steps": [
+          "Pollo al horno con romero y tomillo",
+          "Añade limón y un chorrito de AOVE al final",
+          "Acompaña con patata panadera"
+        ],
+        "why": "Vivino recomienda con frecuencia tempranillo con aves: el plato tiene intensidad media y el vino acompaña sin tapar."
       }
     ]
   },
   "blanco_fresco": {
-    "classic": ["pescado blanco", "ensaladas", "marisco"],
-    "creative": ["sushi", "tacos de pescado (poco picantes)"],
+    "classic": [
+      "marisco (gambas, langostinos, mejillones)",
+      "pescado blanco a la plancha (lubina, dorada)",
+      "pescado blanco al horno con limón",
+      "ensaladas frescas con aliño cítrico",
+      "pasta con salsa ligera (aceite/limón/ajo)",
+      "platos vegetarianos (verduras a la plancha, ensaladas completas)",
+      "aperitivos y snacks (aceitunas, almendras, conservas)",
+      "arroces marineros (suaves, no muy especiados)"
+    ],
+    "creative": [
+      "sushi y sashimi (sin exceso de soja)",
+      "ceviche suave (cítrico, poco picante)",
+      "tacos de pescado con lima (poco picantes)",
+      "poke bowl de atún o salmón",
+      "tempura de verduras con toque cítrico"
+    ],
     "recipes": [
       {
         "title": "Tosta de salmón y limón",
-        "steps": ["Pan tostado + queso crema", "Salmón ahumado", "Ralladura de limón + eneldo"],
-        "why": "La acidez del vino limpia y refresca."
+        "steps": [
+          "Pan tostado + queso crema",
+          "Salmón ahumado",
+          "Ralladura de limón + eneldo"
+        ],
+        "why": "Blancos frescos suelen ir muy bien con pescados y mariscos: la acidez acompaña y refresca."
+      },
+      {
+        "title": "Mejillones al vapor (rápidos)",
+        "steps": [
+          "Abre mejillones al vapor con laurel",
+          "Termina con limón y un chorrito de AOVE",
+          "Pimienta negra opcional"
+        ],
+        "why": "Albariño/blancos frescos aparecen en Vivino como buena pareja para marisco y pescado magro."
+      },
+      {
+        "title": "Lubina al horno (simple)",
+        "steps": [
+          "Lubina con patata panadera",
+          "Limón y hierbas (perejil o tomillo)",
+          "Horno 20–25 min aprox. (según tamaño)"
+        ],
+        "why": "Pescado blanco + cítricos encaja con un blanco fresco por perfil aromático y acidez."
       }
     ]
   },
   "cava_brut": {
-    "classic": ["fritura ligera", "marisco", "tapas"],
-    "creative": ["palomitas saladas", "patatas chips artesanas"],
+    "classic": [
+      "marisco (gambas, mejillones, almejas)",
+      "aperitivos y snacks (aceitunas, patatas, frutos secos)",
+      "pescado magro (pescado blanco a la plancha)",
+      "aperitivo antes de comer",
+      "embutidos y carne curada (jamón, cecina)",
+      "tapas variadas",
+      "fritura ligera (calamares, pescaíto)",
+      "canapés y pinchos fríos"
+    ],
+    "creative": [
+      "palomitas saladas",
+      "patatas chips artesanas",
+      "pollo frito en porciones pequeñas",
+      "tempura de verduras",
+      "tortilla de patatas (tapa)"
+    ],
     "recipes": [
       {
         "title": "Fritura ligera con limón",
-        "steps": ["Calamar/verduras", "Limón al final", "Sal fina"],
-        "why": "La burbuja corta la grasa y deja la boca limpia."
+        "steps": [
+          "Calamar/verduras",
+          "Limón al final",
+          "Sal fina"
+        ],
+        "why": "En espumosos, la burbuja y la acidez ayudan a “limpiar” la grasa de frituras y tapas."
+      },
+      {
+        "title": "Aperitivo fácil (3 ingredientes)",
+        "steps": [
+          "Jamón o lomo (carne curada)",
+          "Aceitunas",
+          "Almendras tostadas"
+        ],
+        "why": "Vivino asocia cava brut con aperitivos/snacks y carne curada: combinación muy típica y segura."
+      },
+      {
+        "title": "Marisco 'sin complicaciones'",
+        "steps": [
+          "Mejillones al vapor o gambas cocidas",
+          "Limón",
+          "Pan para acompañar"
+        ],
+        "why": "Cava brut aparece con frecuencia recomendado con marisco y pescado magro por frescura y burbuja."
+      }
+    ]
+  },
+  "garnacha_joven": {
+    "classic": [
+      "ternera (hamburguesa, parrilla)",
+      "cordero (chuletas, asado)",
+      "aves (pollo, pavo)",
+      "pasta con salsa de tomate o ragú suave",
+      "platos de caza (suaves, tipo estofado)",
+      "quesos semicurados",
+      "pizza de ingredientes cárnicos",
+      "setas salteadas"
+    ],
+    "creative": [
+      "tacos de pollo o ternera (poco picantes)",
+      "berenjena a la parrilla con especias suaves",
+      "bowl de arroz con pollo y verduras",
+      "bocadillo gourmet de pastrami o carne asada"
+    ],
+    "recipes": [
+      {
+        "title": "Pasta al ragú rápido",
+        "steps": [
+          "Sofríe cebolla y ajo",
+          "Añade carne picada y tomate triturado",
+          "Cocina 15–20 min y sirve con pasta"
+        ],
+        "why": "Vivino asocia garnacha (grenache) con pasta y carnes: el vino suele acompañar bien salsa de tomate y proteína."
+      },
+      {
+        "title": "Hamburguesa con queso semicurado",
+        "steps": [
+          "Carne a la plancha",
+          "Queso semicurado",
+          "Pan tostado + cebolla caramelizada (opcional)"
+        ],
+        "why": "Para un tinto frutal tipo garnacha, la grasa/proteína y el queso suelen ser un acierto."
       }
     ]
   }

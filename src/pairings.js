@@ -8,10 +8,25 @@ function mapStyleKey(wineStyle) {
   return "rioja_crianza";
 }
 
+function pickN(arr, n) {
+  const a = Array.isArray(arr) ? [...arr] : [];
+  // shuffle simple
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a.slice(0, Math.min(n, a.length));
+}
+
 function buildPairingText(styleKey, pairings) {
   const p = pairings[styleKey] || pairings["rioja_crianza"];
-  const classic = p.classic.slice(0, 2).map((x) => `• ${x}`).join("\n");
-  const creative = p.creative.slice(0, 1).map((x) => `• ${x}`).join("\n");
+
+  const classicPick = pickN(p.classic || [], 2);
+  const creativePick = pickN(p.creative || [], 1);
+
+  const classic = classicPick.map((x) => `• ${x}`).join("\n") || "• (sin datos)";
+  const creative = creativePick.map((x) => `• ${x}`).join("\n") || "• (sin dato)";
+
   return (
     `Genial. Para este estilo:\n` +
     `✅ Clásicos:\n${classic}\n` +
@@ -22,10 +37,12 @@ function buildPairingText(styleKey, pairings) {
 
 function buildRecipeText(styleKey, pairings) {
   const p = pairings[styleKey] || pairings["rioja_crianza"];
-  const r = (p.recipes && p.recipes[0]) ? p.recipes[0] : null;
+  const list = (p.recipes && Array.isArray(p.recipes)) ? p.recipes : [];
+  const r = list.length ? list[Math.floor(Math.random() * list.length)] : null;
+
   if (!r) return "Perfecto. ¿Volvemos al menú o quieres otro maridaje?";
 
-  const steps = r.steps.map((x, i) => `${i + 1}) ${x}`).join("\n");
+  const steps = (r.steps || []).map((x, i) => `${i + 1}) ${x}`).join("\n");
   return (
     `Receta rápida: ${r.title}\n` +
     `${steps}\n` +
